@@ -15,12 +15,11 @@ A continuación se muestran las capturas de las peticiones HTTP probadas directa
 
 ### 1. Registro de Usuario (`POST /api/auth/register`)
 > **Descripción:** Este endpoint permite crear un nuevo usuario en la base de datos. La contraseña se encripta automáticamente (usando BCrypt) antes de guardarse para garantizar la seguridad.
-<img width="1920" height="1200" alt="Students_Post_VPN" src="https://github.com/user-attachments/assets/a79be912-208f-4d33-b4c5-50c413de0191" />
+<img width="1920" height="1200" alt="Registro_VPS" src="https://github.com/user-attachments/assets/334ebebf-54b1-4345-a824-f39344221993" />
 
 ### 2. Login y Generación de Token JWT (`POST /api/auth/login`)
 > **Descripción:** Al enviar las credenciales correctas, el servidor autentica al usuario y devuelve un token JWT generado de forma dinámica. Este token será la "llave" obligatoria para consumir los endpoints del CRUD.
 <img width="1920" height="1200" alt="Inicio_VPS" src="https://github.com/user-attachments/assets/ae1c7396-78a2-4afa-be05-6a3486cbb80a" />
-<img width="1920" height="1200" alt="Registro_VPS" src="https://github.com/user-attachments/assets/334ebebf-54b1-4345-a824-f39344221993" />
 
 
 ### 3. Crear Estudiante protegido (`POST /api/v1/students`)
