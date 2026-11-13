@@ -1,0 +1,17 @@
+info:
+  name: DeleteStudent
+  type: http
+  seq: 5
+
+http:
+  method: DELETE
+  url: http://localhost:8080/api/v1/students/30
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cmllbEBlamVtcGxvLmNvbSIsImlhdCI6MTc5NDUzNzAxNywiZXhwIjoxNzk0NTczMDE3fQ.aBTr96yeob3xmI0kgluknonAhh52dN8-EJHFJ_Z8FJA
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

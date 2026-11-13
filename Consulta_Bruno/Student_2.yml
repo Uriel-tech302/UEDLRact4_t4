@@ -1,0 +1,17 @@
+info:
+  name: Student_2
+  type: http
+  seq: 4
+
+http:
+  method: GET
+  url: http://localhost:8080/api/v1/students/1
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cmllbEBlamVtcGxvLmNvbSIsImlhdCI6MTc5NDUzNzAxNywiZXhwIjoxNzk0NTczMDE3fQ.aBTr96yeob3xmI0kgluknonAhh52dN8-EJHFJ_Z8FJA
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

@@ -1,0 +1,25 @@
+info:
+  name: Students_POST_VPS
+  type: http
+  seq: 15
+
+http:
+  method: POST
+  url: http://94.130.98.27:2758/api/v1/students
+  body:
+    type: json
+    data: |-
+      {
+          "email": "luis.undemy@gmail.com",
+          "firstName": "Pacheco",
+          "lastName": "Luis"
+      }
+  auth:
+    type: bearer
+    token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cmllbEBlamVtcGxvLmNvbSIsImlhdCI6MTc5NDU0MjgzOSwiZXhwIjoxNzk0NTc4ODM5fQ.BTRfzPI-ZguVU4wbxpueTfzq89Xw9ldD0eIvuHMjoGw
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
